@@ -8,7 +8,7 @@
 
 **주요 메서드 정리**
 
-**ArrayList <Integer> list = new ArrayList <>();**
+**ArrayList < Integer > list = new ArrayList <>();**
 
 1.  `list.add(3)` : list 맨 끝에 값3 추가
 2. `list.add(1,10)` : index 1에 10 삽입
