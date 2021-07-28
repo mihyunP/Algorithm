@@ -8,7 +8,11 @@
 
 **주요 메서드 정리**
 
-**ArrayList < Integer > list = new ArrayList <>();**
+**ArrayList < E> li크st = new ArrayList <>();**
+
+// E에다가 Integer등의 WapperClass 뿐만 아니라, 사용자 정의 자료형으로서 클래스를 넣을 수 있다.
+
+
 
 1.  `list.add(3)` : list 맨 끝에 값3 추가
 2. `list.add(1,10)` : index 1에 10 삽입
@@ -23,4 +27,3 @@
 7. `list.contains(1)` : list에 1이 있는지 검색 후 있으면 true 
 
 8. `list.indexOf(1)` : 1이 있는 index반환, 없으면 -1
-
