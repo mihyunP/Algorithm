@@ -5,12 +5,11 @@
   배열과 유사, but 배열은 크기 고정되지만 ArrayList 추가되는 데이터 개수에 따라 크기 가변적
 
 
-
+<br>
+<br>
 **주요 메서드 정리**
 
-**ArrayList < E> list = new ArrayList <>();**
-
-// E에다가 Integer등의 WapperClass 뿐만 아니라, 사용자 정의 자료형으로서 클래스를 넣을 수 있다.
+**ArrayList < E> list = new ArrayList <>();** // E에다가 Integer등의 WapperClass 뿐만 아니라, 사용자 정의 자료형으로서 클래스를 넣을 수 있다.
 
 
 
