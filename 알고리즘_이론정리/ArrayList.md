@@ -8,7 +8,7 @@
 
 **주요 메서드 정리**
 
-**ArrayList < E> li크st = new ArrayList <>();**
+**ArrayList < E> list = new ArrayList <>();**
 
 // E에다가 Integer등의 WapperClass 뿐만 아니라, 사용자 정의 자료형으로서 클래스를 넣을 수 있다.
 
