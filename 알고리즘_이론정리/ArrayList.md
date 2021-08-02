@@ -7,6 +7,7 @@
 ![arraylist](https://user-images.githubusercontent.com/69749222/127885003-a186b9ad-b4da-4113-a0dd-a37db990d489.png)
 
 **주요 메서드 정리**
+
 **ArrayList < E> list = new ArrayList <>();** // E에다가 Integer등의 WapperClass 뿐만 아니라, 사용자 정의 자료형으로서 클래스를 넣을 수 있다.
 
 1.  `list.add(3)` : list 맨 끝에 값3 추가
