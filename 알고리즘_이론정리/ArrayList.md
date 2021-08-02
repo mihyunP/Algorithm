@@ -1,11 +1,10 @@
 # **🎱 ArrayList**
 
 : List 인터페이스를 상속받은 클래스로 크기가 가변적으로 변하는 선형리스트
+배열과 유사, but 배열은 크기 고정되지만 ArrayList 추가되는 데이터 개수에 따라 크기 가변적
 
-  배열과 유사, but 배열은 크기 고정되지만 ArrayList 추가되는 데이터 개수에 따라 크기 가변적
 
-<br>
-<br>
+![arraylist](https://user-images.githubusercontent.com/69749222/127885003-a186b9ad-b4da-4113-a0dd-a37db990d489.png)
 
 **주요 메서드 정리**
 
