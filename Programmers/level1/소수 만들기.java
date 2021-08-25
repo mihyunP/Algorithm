@@ -48,3 +48,6 @@ class Solution {
         
     }
 }
+
+// 함수로 뺀 것 : comb(), isPrime()
+// 함수에 static 함부로 붙이지 말기! ==> 함수 정의부 기본 구조 : public/private 리턴타입 함수명 
