@@ -38,3 +38,4 @@ class Solution {
         return answer;
     }
 }
+// 틀린 이유 : 여벌 체육복을 가져온 학생이 도난 당하는 경우를 생각하지 않았다.w
