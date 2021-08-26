@@ -11,15 +11,11 @@ public class Solution {
            if(arr[i]>=0){
                 ans.add(arr[i]);
             }
-            // for(int j=i+1;j<arr.length;j++){
-            //     if(arr[j]==arr[i]){
-            //         arr[j] = -1;
-            //     }
-            // }
+
             int j = i;
            
            while(true){       
-               if(j==arr.length-1|| arr[++j]!=arr[i]){
+               if(j==arr.length-1|| arr[++j]!=arr[i]){ // 배열의 마지막 방까지 갔으면 ||뒤에꺼 안보고 바로 break
                    break;
                } 
                arr[j]=-1;
@@ -45,3 +41,7 @@ public class Solution {
         System.out.println();
     }
 }
+
+// 논리 연산자 short circuit
+// true || true	true	only first operand evaluated
+// true | true	true	both operands evaluated
