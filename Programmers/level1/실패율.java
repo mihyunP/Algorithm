@@ -16,9 +16,11 @@ class Solution {
                     cnt2++;
                 }
             }
-            result[i] = cnt2/cnt1;
+           
             if(cnt1==0){
-                result[i] = 0;
+                result[i] = 0; // 문제 잘읽자! : 스테이지에 도달한 유저가 없는 경우 해당 스테이지의 실패율은 0 으로 정의한다.
+            }else{
+                 result[i] = cnt2/cnt1; // 0으로나누면 'ArithmeticException Error'
             }
             // System.out.println(cnt2+"/"+cnt1);
             // System.out.println(result[i]);
