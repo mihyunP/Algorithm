@@ -7,7 +7,7 @@ class Solution {
         String tmpS =s;
        
         // 1. (String) 영단어 -> (String) 숫자 바꾸기
-        while(true){
+        // while(true){ // while문 돌릴필요 없음!!! .replace()함수는 한번에 다 바꿔줌
         tmpS = s.replace("zero","0")
             .replace("one","1")
             .replace("two","2")
@@ -20,12 +20,12 @@ class Solution {
             .replace("nine","9");
         
         s = tmpS;
-        if(s.equals(tmpS)){
+        // if(s.equals(tmpS)){
             // System.out.println(s);
-            break;
-        }
-            
-        }  
+            // break;
+        // }           
+        // }
+        
         // 2. (String) 숫자 -> (int) 숫자
         answer = Integer.parseInt(s);
         
@@ -37,7 +37,7 @@ class Solution {
         //     }
         //      answer += tmpAns;
         // }
-               
+             
         return answer;
     }
 }
