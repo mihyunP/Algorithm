@@ -4,11 +4,11 @@ class Solution {
     public int solution(String s) {
         int answer = 0;
         
-        String tmpS =s;
+        // String tmpS =s; // tmpS 쓸필요 없음
        
         // 1. (String) 영단어 -> (String) 숫자 바꾸기
         // while(true){ // while문 돌릴필요 없음!!! .replace()함수는 한번에 다 바꿔줌
-        tmpS = s.replace("zero","0")
+        s = s.replace("zero","0")
             .replace("one","1")
             .replace("two","2")
             .replace("three","3")
@@ -19,7 +19,7 @@ class Solution {
             .replace("eight","8")
             .replace("nine","9");
         
-        s = tmpS;
+        // s = tmpS;
         // if(s.equals(tmpS)){
             // System.out.println(s);
             // break;
@@ -41,3 +41,23 @@ class Solution {
         return answer;
     }
 }
+
+
+
+/*
+import java.util.*;
+
+class Solution {
+    public int solution(String s) {
+        int answer = 0;
+        
+        // 1. (String) 영단어 -> (String) 숫자 바꾸기
+        s = s.replace("zero","0").replace("one","1").replace("two","2").replace("three","3").replace("four","4").replace("five","5").replace("six","6").replace("seven","7").replace("eight","8").replace("nine","9");
+ 
+        // 2. (String) 숫자 -> (int) 숫자
+        answer = Integer.parseInt(s);
+        
+        return answer;
+    }
+}
+*/
