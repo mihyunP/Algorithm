@@ -52,7 +52,8 @@ class Solution {
         int answer = 0;
         
         // 1. (String) 영단어 -> (String) 숫자 바꾸기
-        s = s.replace("zero","0").replace("one","1").replace("two","2").replace("three","3").replace("four","4").replace("five","5").replace("six","6").replace("seven","7").replace("eight","8").replace("nine","9");
+        s = s.replace("zero","0").replace("one","1").replace("two","2").replace("three","3").replace("four","4")
+        .replace("five","5").replace("six","6").replace("seven","7").replace("eight","8").replace("nine","9");
  
         // 2. (String) 숫자 -> (int) 숫자
         answer = Integer.parseInt(s);
