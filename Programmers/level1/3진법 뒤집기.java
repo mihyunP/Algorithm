@@ -39,7 +39,7 @@ class Solution {
         for(int i=0; i<ternary.length();i++){
             answer += (ternary.charAt(i)-'0') * Math.pow(3,i); // char -> int형 자동 형변환, 아스키 코드 값 가져옴
         }
-        // answer =  Integer.parseInt(ternary, 3);
+        // answer =  Integer.parseInt(ternary, 3); // 문자열형으로 표현된 3진수를 정수형 10진수로 변환해주는 
         
         return answer;
     }
