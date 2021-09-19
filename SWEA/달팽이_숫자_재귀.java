@@ -15,8 +15,8 @@ public class Solution {
 		    int dir = -1;
 		    int r = 0, c = -1;
 		    int num = 1;
-            
-    // 재귀 함수
+
+       	//sol2. 재귀 함수 사용
 		recursive(dir, r, c, num, 2 * N);
 		
         System.out.println("#"+tc);    
