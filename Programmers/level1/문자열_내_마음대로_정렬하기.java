@@ -26,7 +26,7 @@ class Solution {
 // implements 안해도 Comparator 쓸 수 있는지?
 // --------------------------------------
 // Comparator 따로 쓰는 경우 : 
-// Comparator<String> comp = new Comparator<String>() {
+//     Comparator<String> comp = new Comparator<String>() {
 //         @Override
 //         public int compare(String s1, String s2) {
 //             return s1.charAt(n) - s2.charAt(n);
